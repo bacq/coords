@@ -30,7 +30,6 @@ def main():
 			f = file(basepath + "\\" +"output.html", "w+")
 			f.write(fnew)
 			f.close()
-			print fnew
 	except:
 		print "Usage: ./coords.py file.html oldwidth newwidth"
 
